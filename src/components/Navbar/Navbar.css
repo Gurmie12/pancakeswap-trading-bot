@@ -1,0 +1,7 @@
+.navbar-container{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

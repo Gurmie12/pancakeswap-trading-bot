@@ -1,0 +1,38 @@
+.progress-page-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-stats-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.new-coins-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 50%;
+    height: 50%;
+}
+
+.new-coin-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.buy-sell-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+}

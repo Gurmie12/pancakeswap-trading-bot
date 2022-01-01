@@ -1,0 +1,8 @@
+.navbar-link{
+    transition: transform ease 1s;
+    cursor: pointer;
+}
+
+.navbar-link:hover{
+    transform: translateY(-10px);
+}

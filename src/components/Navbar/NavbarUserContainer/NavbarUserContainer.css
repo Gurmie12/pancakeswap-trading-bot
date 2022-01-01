@@ -1,0 +1,38 @@
+.navbar-user-actions-container {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logout-button{
+    transition: transform ease 1s;
+    cursor: pointer;
+}
+
+.connect-wallet-button{
+    transition: transform ease 1s;
+    cursor: pointer;
+}
+
+.logout-button:hover{
+    transform: translateY(-5px);
+}
+
+.connect-wallet-button:hover{
+    transform: translateY(-5px);
+}
+
+.top-stat-container{
+    width: 40%;
+    text-align: center;
+}
+
+.auto-buy-toggle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
